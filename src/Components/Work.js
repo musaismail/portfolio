@@ -8,9 +8,9 @@ import portfolio from '../Assets/portfolio.PNG'
 const Work = () => {
   return (
     <div name='work' className='w-full h-full  text-gray-300 bg-[#0a192f]'>
-        <div className='max-w-[1000px] mx-auto mt-[80px] pt-[50px] p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1000px] mx-auto p-10  flex flex-col justify-center w-full h-full'>
             <div className='p-8'>
-                <p className='text-4xl font-bold inline border-b-4 text-gray-300 mt-[60px] border-pink-600'> Work</p>
+                <p className='text-4xl font-bold inline border-b-4 text-gray-300  border-pink-600'> Work</p>
                 <p className='py-6'>Check out some of my recent works</p>
             </div>
             <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
@@ -100,12 +100,12 @@ const Work = () => {
 
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='https://resplendent-creponne-53dbeb.netlify.app/'>
+                            <a href='https://iridescent-gnome-ddb5c8.netlify.app/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Demo
                                 </button>
                             </a>
-                            <a href='https://github.com/musaismail/my-pet-app'>
+                            <a href='https://github.com/musaismail/portfolio'>
                                 <button  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Code
                                 </button>

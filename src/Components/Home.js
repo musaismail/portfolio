@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import{HiArrowNarrowRight} from 'react-icons/hi'
 const Home = () => {
   return (
@@ -10,11 +10,11 @@ const Home = () => {
       <p className='text-[#8892b0] py-3 max-w-[700px]'>I'm a frontend developer specializing in building (and occassionally designing)
         exceptional digital experiences. Currently, I'm focused on building responsive frontend web applications  </p>
         <div>
-        <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>View Work 
+       <a href='https://docs.google.com/document/d/1VVQ-PnZ_4mkQqD5LkuOeAZAKhWfTqVUDLJHktYkBbio/'> <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>View Resume 
        <span className='group-hover:rotate-90 duration-300 '>
        <HiArrowNarrowRight className='ml-3'/> 
        </span> 
-        </button>
+        </button></a>
     </div>
     </div>
     
