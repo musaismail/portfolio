@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../Assets/Resume.pdf";
+import { Resume } from "../Assets/Resume.pdf";
 import { HiArrowNarrowRight } from "react-icons/hi";
 const Home = () => {
   return (
